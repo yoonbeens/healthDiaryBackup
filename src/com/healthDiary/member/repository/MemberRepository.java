@@ -27,7 +27,7 @@ public class MemberRepository {
 			if(pstmt.executeUpdate() == 1) {
 				System.out.println("님이 신규 등록되었습니다");
 			} else {
-				
+				System.out.println("miss you");
 			}
 			
 		} catch (SQLException e) {
